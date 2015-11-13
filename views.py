@@ -13,7 +13,7 @@ def parse_query_string(string):
     )
 
 
-class LoginFacebookBaseView(TemplateView):
+class AuthFacebookBaseView(TemplateView):
     app_code = ''
     app_secret = ''
 
